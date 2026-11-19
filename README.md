@@ -1,2 +1,6 @@
 # import_wrapper_attack
-Example of an attack on the import mechanism in VMProtect 3.0–3.10.4.0 and Themida/WinLicense 3.0–3.4.5 (possibly even later versions?)
+This project demonstrates an attack on obfuscated imports protected by VMP/Themida/WinLicense. However, rather than targeting the transition from the program code to the protector code, this project focuses on attacking the import wrapper, regardless of whether a direct transition to it exists.  
+Example hook protected import MessageBoxW in Themida 3.2.4.5 ->  
+![alt text](https://github.com/Ahora57/import_wrapper_attack/blob/main/hook_themida_dll.png?raw=true) 
+Example hook protected import MessageBoxW in VMP 3.10.4.0 ->  
+![alt text](https://github.com/Ahora57/import_wrapper_attack/blob/main/hook_vmp_dll.png?raw=true)
